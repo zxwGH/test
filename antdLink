@@ -1,0 +1,6 @@
+import {TimePicker} from 'antd';
+import dayjs from 'dayjs';
+
+<TimePicker defaultOpenValue={dayjs('00:00:00', 'HH:mm:ss')} />
+
+报错 Can't resolve 'antd/es/time-picker/style'
